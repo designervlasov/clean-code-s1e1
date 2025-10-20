@@ -1,11 +1,11 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-h1 {
+.aside__title {
   position: absolute;
   overflow: hidden;
   width: 1px;
@@ -47,7 +47,8 @@ h1 {
   justify-content: space-between;
 }
 
-ul {
+.todo__list,
+.completed__list {
   margin: 0;
   padding: 0px;
 }
@@ -122,6 +123,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+
 li > * {
   vertical-align: middle;
 }
