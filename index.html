@@ -8,13 +8,20 @@
     <title>Todo App</title>
 </head>
 <body>
+    <aside>
+    <h1>Todo App</h1>
     <div class="aaa"><img src="./eisenhower-matrix.jpg" alt="eisenhower matrix"><a class='more_inf' href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></div>
-<div class="centered-main-page-element">
+    </aside>
+    <main>
+    <div class="centered-main-page-element">
+    <section class="add-item">
     <p id='topSectionForAddingElementToList'><label for="new-task">Add Item</label>
         <div class="task-row-wrapper">
             <input id='new-task'class="task" type="text">
             <button>Add</button></div>
         </p>
+        </section>
+        <section class="todo">
 <h3>Todo</h3>
 <ul id='incompleteTasks'>
 <li>
@@ -30,6 +37,8 @@
     <button class="delete"><img src="./remove.svg" alt="remove"></button>
 </li>
 </ul>
+</section>
+<section class="completed">
 <h3>Completed</h3>
 <ul id="completed-tasks">
     <li>
@@ -39,7 +48,9 @@
         <button class="delete"><img src="./remove.svg" alt="remove"></button>
     </li>
 </ul>
+</section>
 </div>
+</main>
 <script SRC="app.js"></script>  
 </body>
 </html>
